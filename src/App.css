@@ -1,0 +1,47 @@
+.form{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.topDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+}
+
+#search{
+  width: 300px;
+  height: 50px;
+  margin-left: 20%;
+  margin-top: 65%;
+  border-radius: 10px;
+  border-color: transparent;
+  color: blue;
+  font-size: 20pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
