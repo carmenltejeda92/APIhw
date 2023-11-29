@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SongDisplay(props) {
+function SongDisplaay(props) {
         return (
         <div>
             <h1>Song Display</h1>
@@ -8,5 +8,5 @@ function SongDisplay(props) {
         </div>
         )
 }
-
-export default SongDisplay
+// 
+export default SongDisplaay

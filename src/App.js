@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Form from './components/Form';
 import Header from './components/Header';
-import SongDisplay from './components/SongDisplay'
+import SongDisplaay from './components/SongDisplaay'
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {song?<SongDisplay info={song}/>: null}
+      {song?<SongDisplaay info={song}/>: null}
       <Form songSearch={getSong} />
     </div>
   );
