@@ -1,19 +1,26 @@
-.form{
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+body{
+  background-image: url('https://thumbs.dreamstime.com/z/music-notes-background-18321026.jpg?w=768');
+  background-repeat: no-repeat;
 }
 
 .topDiv{
   display: flex;
   flex-direction: column;
   background-color: aqua;
-  height: 500px;
+  height: 100%;
   width: 500px;
   justify-content: center;
   box-shadow: 5px 10px 8px #888888;
-
+  border-radius: 15px;
 }
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
 
 #btn{
   width: 300px;
@@ -37,6 +44,7 @@
   border-radius: 10px;
   border-color: transparent;
   font-size: 20pt;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   box-shadow: 3px 3px 8px #888888
 }
@@ -49,18 +57,33 @@
   height: 400px;
   margin-left: 20%;
   margin-top: 10%;
-  box-shadow: 3px 3px 8px #888888
+  box-shadow: 3px 3px 8px #888888;
+  border-radius: 15px;
 }
 
 
+.displayPic{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px aqua, 0 0 1em blue, 0 0 0.2em blue;
+}
 
 
-
-
-
-
-
-
+.display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
 
 
 

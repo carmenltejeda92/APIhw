@@ -35,8 +35,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {song?<SongDisplaay info={song}/>: null}
-      <Form songSearch={getSong} />
+      <div className='main'>
+        {song?<SongDisplaay info={song}/>: null}
+        <Form songSearch={getSong} />
+      </div>
     </div>
   );
 }
